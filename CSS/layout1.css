@@ -1,3 +1,41 @@
 @media only screen and (max-width: 600px) {
     
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: fit-content 1fr 1fr;
+    grid-template-rows: 1fr fit-content 1fr;
+}
+
+.box {
+    background-color: grey;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+    color: white;
+    border: black solid 2px;
+    text-align: center;
+}
+
+.item-1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.item-2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.item-3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
 }
