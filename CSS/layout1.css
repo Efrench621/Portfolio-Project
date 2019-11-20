@@ -1,6 +1,11 @@
 @media only screen and (max-width: 600px) {
     
-
+    @font-face {
+        font-family: 'novus';
+        src: url('fonts/Novus-Regular.otf') format('opentype'),
+             url('fonts/Novus-Bold.otf') format('opentype'),
+             url('fonts/Novus-Bold-Italic.otf') format('opentype');
+    }
 
 
 .grid-container {
@@ -37,5 +42,14 @@
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 4;
+}
+
+p {
+    color: magenta;
+}
+
+.box h1 {
+    /*font-family: 'novus';*/
+    color: magenta;
 }
 }
