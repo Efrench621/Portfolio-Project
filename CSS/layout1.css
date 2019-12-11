@@ -1,60 +1,26 @@
 @media only screen and (max-width: 600px) {
     
-    @font-face {
-        font-family: 'novus';
-        src: url('fonts/Novus-Regular.otf') format('opentype'),
-             url('fonts/Novus-Bold.otf') format('opentype'),
-             url('fonts/Novus-Bold-Italic.otf') format('opentype');
-    }
-
-
-.grid-container {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 30% 70%;
-}
-
-.box {
-    overflow-wrap: break-word;
-<<<<<<< HEAD
-=======
-    background-color: transparent;
->>>>>>> master
-    text-align: center;
-    height: 100%;
-    background-color: transparent;
-}
-
-.item-1 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 1;
-}
-
-/*.item-2 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 4;
-}
-
-.item-3 {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 4;
-}*/
-
-
-.box h1 {
-    font-family: 'novus';
-    color: magenta;
-}
-
 body {
-    background-image: url(../images/city4.gif);
-    background-size:cover;
+    background-image: url(../images/city5.gif);
+    background-size: 100%;
+}
+
+nav {
+    
+}
+
+/*Tables*/
+
+table {
+    background-color: transparent;
+}
+
+tr {
+    text-align: center;
+}
+
+td {
+    text-align: center;
 }
 }
 
