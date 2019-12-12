@@ -5,23 +5,27 @@ body {
     background-size: 100%;
 }
 
-nav {
-    
+
+
+div {
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
 }
 
+html h1 {
+    height: 30px;
+}
 /*Tables*/
 
 table {
     background-color: transparent;
 }
-
-tr {
-    text-align: center;
+td{
+    width: 195px; height: 110px;
 }
 
-td {
-    text-align: center;
-}
+
 }
 
 @media only screen and (min-width: 601px) and (max-width: 900px){
