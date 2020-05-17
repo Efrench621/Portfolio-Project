@@ -1,1 +1,120 @@
 /* comment */
+
+@font-face {
+    font-family: 'prime';
+    src: url("fonts/Prime-Regular.ttf") format("truetype"),
+         url("fonts/Prime-Light.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'acid';
+    src: url("fonts/acid.otf") format("opentype"),
+         url("fonts/acid_bold.otf") format("opentype"),
+         url("acid_italic.otf") format("opentype"),
+         url("fonts/acid_medium.otf") format("opentype"),
+         url("fonts/medium_italic.otf") format("opentype");
+}
+
+/* General Styles (apply to all pages) */
+body {
+    background-color: rgb(21, 141, 221);
+}
+.center {
+    text-align: center;
+}
+.nav {
+    background-color: black;
+    border: solid 2px black;
+    display: flex;
+    justify-content: space-around;
+    height: 4em;
+}
+.links {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 200%;
+}
+li:hover {
+    background-color:rgb(39, 37, 37);
+    transition: 0.5s;
+    border-bottom: 2px solid rgb(253, 56, 89);
+    padding-top: 0.5em;
+}  
+.footer {
+    font-family: 'prime';
+    color: white;
+    font-size: 200%;
+    height: 4em;
+    width: 100%;
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    justify-content: space-around;
+}
+/* Index Styles */
+.iBox1 {
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.596);
+    z-index: 1;
+}
+.iBox2 {
+    width: 100%;
+    height: 400px;
+    background-color: whitesmoke;
+}
+.lg {
+    opacity: 0.75;
+    z-index: 5;
+}
+/* About Me Styles */
+.outer1 {
+    position: relative;
+    width: 100%;
+}
+.outer2 {
+    position: relative;
+    width: 100%;
+}
+.aBox1 {
+    width: 25%;
+    background-color: grey;
+    height: 90%;
+    font-family: 'acid';
+    font-size: 300%;
+}
+.aBox2 {
+    width: 25%;
+    height: 90%;
+    background-color: transparent;
+}
+.aBox3 {
+    width: 25%;
+    height: 90%;
+    background-color: transparent;
+}
+.aBox4 {
+    width: 25%;
+    height: 90%;
+    background-color: brown;
+    font-family: 'acid';
+    font-size: 300%;
+}
+
+/* Gallery Styles */
+.gTable {
+    border: 2px solid black;
+}
+.gTd {
+    text-align: center;
+}
+td {
+    width: 120px;
+    height: 90px;
+}
+
+/* Resume Styles */
+
+
+/* Skills Styles */
+
+
