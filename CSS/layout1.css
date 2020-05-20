@@ -13,7 +13,10 @@
          url("fonts/acid_medium.otf") format("opentype"),
          url("fonts/medium_italic.otf") format("opentype");
 }
-
+@font-face {
+    font-family: 'acid-medium';
+    src: url("fonts/acid_medium.otf") format("opentype");
+}
 /* General Styles (apply to all pages) */
 body {
     background-color: rgb(21, 141, 221);
@@ -70,46 +73,83 @@ li:hover {
 .outer1 {
     position: relative;
     width: 100%;
+    margin-bottom: 3%;
 }
 .outer2 {
     position: relative;
     width: 100%;
 }
 .aBox1 {
-    width: 25%;
-    background-color: grey;
+    width: 30%;
+    background-color: transparent;
     height: 90%;
-    font-family: 'acid';
+    font-family: 'acid-medium';
     font-size: 300%;
+    float: left;
+    margin-left: 22%;
+    margin-top: 5%;
 }
 .aBox2 {
     width: 25%;
     height: 90%;
     background-color: transparent;
+    float: right;
+    margin-right: 22%;
+    margin-top: 5%;
+    padding-top: 4%;
 }
 .aBox3 {
-    width: 25%;
+    width: 30%;
     height: 90%;
     background-color: transparent;
+    float: left;
+    margin-left: 22%;
+    margin-top: 5%;
+    padding-top: 4%;
 }
 .aBox4 {
     width: 25%;
     height: 90%;
     background-color: brown;
-    font-family: 'acid';
+    font-family: 'acid-medium';
     font-size: 300%;
+    float: right;
+    margin-right: 22%;
+    margin-top: 5%;
 }
 
 /* Gallery Styles */
 .gTable {
-    border: 2px solid black;
+    font-size: 200%;
+    font-family: 'acid-medium';
+    color: white;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    width: 100%;
+    /*margin-left: auto;
+    margin-right: auto;*/
 }
 .gTd {
     text-align: center;
+    padding: 2%;
+    height: 50%;
 }
-td {
-    width: 120px;
-    height: 90px;
+.gCell {
+    z-index: 5;
+}
+.gCell:hover {
+    background-color: white;
+    color: black;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    transition: 0.5s;
+    position: relative;
+    box-shadow: 0px 5px 5px black;
+}
+.gTitle {
+    z-index: 0;
 }
 
 /* Resume Styles */
